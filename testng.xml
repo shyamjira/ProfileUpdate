@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Com.Naukari.QA.Com.Naukari.QA.POM.LoginLogout"/>
+     <class name="Com.Naukari.QA.Com.Naukari.QA.POM.LoginLogOutBengluru"/>
+      <class name="Com.Naukari.QA.Com.Naukari.QA.POM.LoginLogoutPune"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -8,8 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-
-public class LoginLogout {
+public class LoginLogOutBengluru {
 	
 	@Test
 	public static void main() throws InterruptedException  {
@@ -25,7 +24,7 @@ public class LoginLogout {
 		WebElement LoginBtn = driver.findElement(By.xpath("//button[text()='Login']"));
 		
 		
-		Username.sendKeys("srnarwade96@gmail.com");
+		Username.sendKeys("samnar1996@gmail.com");
 		PassWord.sendKeys("Shyam@1234");
 		LoginBtn.click();
 		
@@ -41,16 +40,14 @@ public class LoginLogout {
 		
 		EditBtn.click();
 		
-//		WebElement frame = driver.findElement(By.xpath("//iframe[2]"));
-//		Thread.sleep(3000);
-//		driver.switchTo().frame(2);
+
 		
 		WebElement name = driver.findElement(By.xpath("//input[@id='name']"));
 		
 		Thread.sleep(3000);
 		name.clear();
 		Thread.sleep(3000);
-		name.sendKeys("Shyam Ramchandra Narwade.");
+		name.sendKeys("Shyam  Narwade");
 		
 		
 		WebElement SaveBtn = driver.findElement(By.xpath("//button[text()='SAVE']"));
@@ -61,6 +58,7 @@ public class LoginLogout {
 		Profile.click();
 		WebElement LogOut = driver.findElement(By.xpath("//a[@title='Logout']"));
 		LogOut.click();
+		System.out.println("Bengluru profile is updated");
 		
 		driver.close();
 		

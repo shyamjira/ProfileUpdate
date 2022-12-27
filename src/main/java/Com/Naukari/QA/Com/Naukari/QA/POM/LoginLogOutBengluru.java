@@ -42,12 +42,12 @@ public class LoginLogOutBengluru {
 		
 
 		
-		WebElement name = driver.findElement(By.xpath("//input[@id='name']"));
+		WebElement TelNumber = driver.findElement(By.xpath("//input[@id='tel_pNumber']"));
 		
 		Thread.sleep(3000);
-		name.clear();
+		TelNumber.clear();
 		Thread.sleep(3000);
-		name.sendKeys("Shyam  Narwade");
+		TelNumber.sendKeys("9890472087");
 		
 		
 		WebElement SaveBtn = driver.findElement(By.xpath("//button[text()='SAVE']"));

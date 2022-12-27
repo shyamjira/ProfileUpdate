@@ -3,7 +3,7 @@
 <suite parallel="none" name="Failed suite [Suite]" verbose="0">
   <test parallel="none" name="Test(failed)" preserve-order="false">
     <classes>
-      <class name="Com.Naukari.QA.Com.Naukari.QA.POM.LoginLogOutBengluru">
+      <class name="Com.Naukari.QA.Com.Naukari.QA.POM.LoginLogoutPune">
         <methods>
           <include name="main"/>
         </methods>

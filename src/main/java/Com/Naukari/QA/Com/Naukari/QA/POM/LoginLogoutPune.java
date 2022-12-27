@@ -43,12 +43,12 @@ public class LoginLogoutPune {
 		
 
 		
-		WebElement name = driver.findElement(By.xpath("//input[@id='name']"));
+		WebElement TelNumber = driver.findElement(By.xpath("//input[@id='tel_pNumber']"));
 		
 		Thread.sleep(3000);
-		name.clear();
+		TelNumber.clear();
 		Thread.sleep(3000);
-		name.sendKeys("Shyam Ramchandra Narwade.");
+		TelNumber.sendKeys("8766492856");
 		
 		
 		WebElement SaveBtn = driver.findElement(By.xpath("//button[text()='SAVE']"));
